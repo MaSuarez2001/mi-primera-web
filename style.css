@@ -4,6 +4,16 @@ body {
   color: #333;
   text-align: center;
   margin: 20px;
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://incuyo.edu.ar/assets/img/logo.png");
+  background-repeat: no-repeat;  
+  background-position: center;    
+  background-size: cover;         
+  margin: 0;
+  padding: 0;
+}
+
 }
 
 h1 {
