@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffffff;   
+  background-color: #ffffff; 
   color: #333;
   text-align: center;
   margin: 0;
@@ -11,16 +11,12 @@ body {
 
 body::before {
   content: "";
-  background: url("https://incuyo.edu.ar/assets/img/logo.png") no-repeat center center;
-  background-size: 300px;      
+  background: url("logo.png") no-repeat center center;
+  background-size: 300px;     
   opacity: 0.1;                
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 0; left: 0; right: 0; bottom: 0;
   z-index: -1;              
-}
 
 h1 {
   color: #0066cc;
