@@ -1,35 +1,24 @@
+/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffffff; 
+  background-color: #ffffff;   /* fondo blanco */
   color: #333;
   text-align: center;
   margin: 0;
   padding: 0;
-  position: relative;         
+  position: relative;          /* necesario para el pseudo-elemento */
   min-height: 100vh;
 }
 
+/* Marca de agua con el logo */
 body::before {
   content: "";
   background: url("logo.png") no-repeat center center;
-  background-size: 300px;
-  opacity: 0.4;   
+  background-size: 400px;      /* tamaño del logo, ajusta según prefieras */
+  opacity: 0.25;               /* transparencia (más alto = más visible) */
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  z-index: -1;
+  z-index: -1;                 /* lo manda detrás del texto */
 }
 
-h1 {
-  color: #0066cc;
-  margin-top: 40px;
-}
-
-p {
-  font-size: 18px;
-}
-
-img {
-  width: 200px;
-  border-radius: 10px;
-  margin-top: 15px;
-}
+/
